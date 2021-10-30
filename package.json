@@ -1,0 +1,20 @@
+{
+  "name": "discord-sleeper-cardcheck",
+  "version": "1.0.0",
+  "description": "Checks your league for injured/bye week starters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christytc10/cardcheck-bot.git"
+  },
+  "author": "Christy Campbell",
+  "license": "MIT",
+  "dependencies": {
+    "discord-interactions": "^2.0.2",
+    "dotenv": "^8.2.0",
+    "raw-body": "^2.4.1"
+  }
+}
