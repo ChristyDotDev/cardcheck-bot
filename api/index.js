@@ -13,6 +13,9 @@ const CARDCHECK_COMMAND = {
 const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=${process.env.APPLICATION_ID}&scope=applications.commands`;
 
 module.exports = async (request, response) => {
+  console.log("GOT REQUEST")
+  console.log(request)
+
   if (request.method === 'POST') {
     const signature = request.headers['x-signature-ed25519'];
     const timestamp = request.headers['x-signature-timestamp'];
