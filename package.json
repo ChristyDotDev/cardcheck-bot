@@ -13,6 +13,8 @@
   "author": "Christy Campbell",
   "license": "MIT",
   "dependencies": {
+    "@discordjs/rest": "0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
     "discord-interactions": "^2.0.2",
     "dotenv": "^8.2.0",
     "raw-body": "^2.4.1"

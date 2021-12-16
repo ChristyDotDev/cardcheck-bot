@@ -6,8 +6,8 @@ const {
 const getRawBody = require('raw-body');
 
 const CARDCHECK_COMMAND = {
-  name: 'Card Check',
-  description: 'Checks your lineups',
+  name: 'card-check',
+  description: 'Checks Cards',
 };
 
 const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=${process.env.APPLICATION_ID}&scope=applications.commands`;
